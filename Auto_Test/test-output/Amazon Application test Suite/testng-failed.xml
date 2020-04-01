@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Amazon Application test Suite]" parallel="methods">
+  <test thread-count="3" name="Different testNG feature test(failed)" parallel="methods">
+    <parameter name="title" value="Google"/>
+    <parameter name="URL" value="https://www.google.com/ "/>
+    <classes>
+      <class name="parallelTesting_TestNG.ParallelTesting">
+        <methods>
+          <include name="ieBrowser"/>
+          <include name="chromeBrowser"/>
+        </methods>
+      </class> <!-- parallelTesting_TestNG.ParallelTesting -->
+    </classes>
+  </test> <!-- Different testNG feature test(failed) -->
+</suite> <!-- Failed suite [Amazon Application test Suite] -->

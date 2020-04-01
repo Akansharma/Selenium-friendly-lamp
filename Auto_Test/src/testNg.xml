@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Application test Suite" verbose="1" parallel="methods" thread-count="3">
+<test name = "Different testNG feature test">
+<parameter name = "URL" value="https://www.google.com/ "/>
+<parameter name = "title" value = "Google" />
+
+<classes>
+<class name = "parallelTesting_TestNG.ParallelTesting"/>
+<!--<class name = "googleTest.DependsOnMethod" />
+<class name = "googleTest.GoogleTest" /> "-->
+</classes>
+</test>
+</suite>

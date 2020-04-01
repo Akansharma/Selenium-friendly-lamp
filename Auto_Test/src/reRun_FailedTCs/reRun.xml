@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="reRun Failed Test cases">
+<test name="reRun" parallel="methods">
+<classes>
+<class name="reRun_FailedTCs.UsingTestNG_xml">
+<methods>
+<include name="ieBrowser"/>
+<include name="geckoBrowser"/>
+ </methods>
+</class>
+</classes>
+</test>
+</suite>
