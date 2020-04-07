@@ -1,9 +1,9 @@
+/collections_framework/
 /dataProvider/
 /googleTest/
 /listenersTestNG/
 /parallelTesting_TestNG/
 /parameterization_TestNG/
-/reRun_FailedTCs/
-/testNg.xml
 /testNg/
-/test_auto/
+/reRun_FailedTCs/
+/selenium_test_auto/
