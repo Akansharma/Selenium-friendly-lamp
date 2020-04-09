@@ -16,7 +16,9 @@ public class Hashtable_example {
 + A Hashtable is an array of list. Each list is known as a bucket.
 The position of bucket is identified by calling the hashcode() method. A Hashtable contains values based on the key.
 + It contains only unique elements.
-+ It may have not have any null key or value.
+
++ It may have not have any null key or value. //null pointer exception will be thrown
+
 + It is synchronized
 		 */
 
@@ -31,6 +33,7 @@ The position of bucket is identified by calling the hashcode() method. A Hashtab
 			System.out.println("Print all values using enumeration");
 			while(e.hasMoreElements()){
 				System.out.println(e.nextElement());
+				System.out.println(ht.hashCode());
 			}
 		}
 	}

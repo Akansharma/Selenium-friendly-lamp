@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 public class ArrayList_example {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/**** dynamic Array ---- Arraylist ****
@@ -18,9 +19,12 @@ public class ArrayList_example {
 		 * 4. Allows to random access to fetch elements values because it stores the values on basis of indexes 
 		 * */
 
+		@SuppressWarnings("rawtypes")
 		ArrayList arr = new ArrayList();
 
 		arr.add(10);
+		arr.add(10);
+		
 		arr.add("Test");
 		arr.add("John");
 		arr.add(12);
