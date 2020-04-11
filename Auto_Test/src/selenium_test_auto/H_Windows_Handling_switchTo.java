@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Windows_Handling_switchTo {
+public class H_Windows_Handling_switchTo {
 
 	public static void main(String[] args) {
 		
